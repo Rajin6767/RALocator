@@ -24,7 +24,7 @@ app.post('/api/status', (req, res) => {
   const { status, password } = req.body;
 
   // Simple authentication
-  if (password !== 'your_secure_password') {
+  if (password !== 'rajinrock619') {
     return res.status(401).send({ message: 'Unauthorized' });
   }
 
